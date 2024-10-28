@@ -1,0 +1,19 @@
+{
+  "name": "1.basic-node.js-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "json-server": "^1.0.0-beta.3",
+    "nodemon": "^3.1.7",
+    "url": "^0.11.4"
+  }
+}

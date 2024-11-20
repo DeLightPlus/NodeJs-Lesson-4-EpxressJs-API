@@ -14,7 +14,7 @@ if (!fs.existsSync(filePath))
 }
 
 // Read books from file
-let books = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+let books = JSON.parse( fs.readFileSync(filePath, 'utf8') );
 
 app.get('/', (req, res)=>
     {        
